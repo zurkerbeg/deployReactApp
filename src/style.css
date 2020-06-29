@@ -132,3 +132,13 @@ ul.header h1{
 .content a:hover{
   color:#FF4500;
 }
+
+@media screen and (max-width:576px){
+  .container{
+    width:100%;
+    margin:10px auto;
+    border:3px solid black;
+    box-sizing:border-box;
+    padding:5px 10px;
+  }
+}
