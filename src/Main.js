@@ -12,7 +12,7 @@ class Main extends Component{
                   <h1>Single Page Application</h1>
                 </ul>
                 <div className="content">
-                    <Route exact path="/" component={Home}></Route>
+                    <Route exact path="/deployReactApp" component={Home}></Route>
                     <Route path="/detail" component={Detail}></Route>
                 </div>
             </div>
