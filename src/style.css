@@ -1,0 +1,134 @@
+
+.container{
+  width:35%;
+  margin:10px auto;
+  border:3px solid black;
+  box-sizing:border-box;
+  padding:5px 10px;
+}
+.header{
+  display:flex;
+  justify-Content:flex-start;
+  align-items:center;
+}
+.header h1{
+  font-size:26px;
+  line-height:20px;
+  color:#606060 ;
+  margin-right:10px;
+}
+.header .refresh{
+  width:80px;
+  height:30px;
+  border-radius:12px;
+  background-color:blue;
+  font-size:17px;
+  color:#ffffff;
+  outline:none;
+  cursor: pointer;
+}
+.dataFollower{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  margin:15px 0px;
+}
+.dataFollower img{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background-color:red;
+  margin-right:15px;
+  box-shadow:0 4px 12px black;
+}
+.dataFollower .user{
+  color:black;
+  user-select: none;
+}
+.dataFollower .username{
+  color:#606060 ;;
+  user-select: none;
+}
+.dataFollower .user:hover{
+  text-decoration:underline;
+}
+.dataFollower .UserSpace{
+  padding-right:15px;
+  display:flex;
+  
+}
+.dataFollower .UserSpace .user{
+  margin-right:15px;
+}
+.dataFollower .close{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  color:#ffffff;
+  background-color:#1B477D ;
+  font-size:18px;
+  outline:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-top:0;
+  cursor:pointer;
+}
+.dataFollower .close:hover{
+  color:#FF4500;
+}
+.loading-session{
+  text-align:center;
+}
+
+/* 
+css for main component*/
+body{
+  background-color:#2D3B48;
+  padding:20px;
+  margin:0;
+  font-family:'Roboto';
+  line-height:20px;
+  font-size:16px;
+  @font-face {
+    font-family:'Roboto';
+    src: url('/font/Roboto.ttf');
+  }
+  color:#A0A0A0;
+}
+.title{
+  color:white;
+}
+h1,h2{
+  font-family:sans-serif;
+}
+ul.header{
+  background-color:#23BA91;
+  padding:20px;
+  font-weight:bold;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:30px;
+}
+ul.header h1{
+  color:#fff;
+}
+.content{
+  background-color:#fff;
+  padding:20px;
+  color:black;
+}
+.content h2{
+  padding:0;
+  margin:0;
+}
+.content li{
+  margin-bottom:10px;
+}
+.content a{
+  text-decoration:none;
+}
+.content a:hover{
+  color:#FF4500;
+}
